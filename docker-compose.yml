@@ -1,0 +1,50 @@
+version: '3.8'
+
+services:
+  webserver_oecfm:
+    container_name: php_mydesk.oecfm.mg
+    build:
+      context: .
+      dockerfile: Dockerfile
+    volumes:
+      - ./etc/ssl/certs/mycert.crt:/etc/ssl/certs/mycert.crt
+      - ./etc/ssl/private/mycert.key:/etc/ssl/private/mycert.key
+      - ./php-overrides.ini:/usr/local/etc/php/conf.d/php-overrides.ini
+      - ./src:/var/www/html/
+    ports:
+      - "8001:80"
+    networks:
+      - oecfm-network
+
+  mysql_db_oecfm:
+    image: mysql:8.0
+    container_name: mysql_mydesk.oecfm.mg
+    restart: always
+    environment:
+      MYSQL_ROOT_PASSWORD: "R@ts!mba20"
+      MYSQL_DATABASE: "oecfmmg_desk_1767250407"
+      MYSQL_USER: "manage"
+      MYSQL_PASSWORD: "R@ts!mba20"
+    volumes:
+      - db_data:/var/lib/mysql # Persist data
+    networks:
+      - oecfm-network
+
+  phpmyadmin_oecfm:
+    image: phpmyadmin/phpmyadmin
+    container_name: phpmyadmin_mydesk.oecfm.mg
+    environment:
+      PMA_HOST: mysql_db_oecfm
+      MYSQL_ROOT_PASSWORD: R@ts!mba20
+      UPLOAD_LIMIT: 300M
+    ports:
+      - "8081:80"
+    networks:
+      - oecfm-network
+
+networks:
+  oecfm-network:
+    driver: bridge
+
+volumes:
+  db_data:

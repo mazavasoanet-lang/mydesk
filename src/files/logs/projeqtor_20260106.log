@@ -1,0 +1,7 @@
+2026-01-06 19:07:59.777 ===== TRACE ===== NEW CONNECTED USER 'mazavasoa'
+2026-01-06 20:15:09.838 ===== TRACE ===== NEW CONNECTED USER 'gerahvalisoa@gmail.com' (using remember me feature)
+2026-01-06 22:13:56.942 ***** ERROR ***** [V11.2.3] ERROR *****
+2026-01-06 22:13:56.943 ***** ERROR ***** [V11.2.3] on file '/var/www/html/model/Attachment.php' at line (105)
+2026-01-06 22:13:56.943 ***** ERROR ***** [V11.2.3] cause = file_exists(): Passing null to parameter #1 ($filename) of type string is deprecated
+2026-01-06 23:03:15.111 ===== TRACE ===== DISCONNECTED USER 'mazavasoa'
+2026-01-06 23:50:18.105 ===== TRACE ===== NEW CONNECTED USER 'mazavasoa'

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plugin name="screenCustomization">
+  <property name="description"    value="Customization of screens" />
+  <property name="comment"        value="Customization of screens to add/remove fields" />
+  <property name="uniqueCode"     value="100004"                   comment="inserted id (for instance for menu) should start with this code + 3 digits" />
+  <property name="version"        value="6.4" />
+  <property name="compatibility"  value="V9.2.4" />
+  <property name="sql"            value="screenCustomization.sql" version="1.0" />
+  <property name="sql"            value="screenCustomization.V5.4.sql" version="5.4" comment="MySql V8.0.20 compatibility"/>
+  <property name="reload"         value="1"                        comment="set to 1 to force application reload after plug-in install" />
+  <property name="postInstall"    value="screenCustomizationPostInstall.php"  comment="file to be executed after plugin install" />
+  <files>
+    <file name="iconScreenCustomization16.png" target="../view/css/images" action="copy" />
+    <file name="iconScreenCustomization22.png" target="../view/css/images" action="copy" />
+    <file name="iconScreenCustomization32.png" target="../view/css/images" action="copy" />
+    <file name="PlgCustomList.php" target="../model/custom" action="move" />
+  </files>
+</plugin>

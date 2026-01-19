@@ -1,0 +1,12 @@
+2025-12-30 22:13:19.487 ===== TRACE ===== NEW CONNECTED USER 'manager'
+2025-12-30 22:13:49.921 ===== TRACE ===== DISCONNECTED USER 'manager'
+2025-12-30 22:35:34.589 ***** ERROR ***** [] SQL ERROR : Connection to Database failed 
+2025-12-30 22:35:34.590 ***** ERROR ***** []   dns='mysql:host=localhost;port=3306;dbname=oecfmmg_desk'
+2025-12-30 22:35:34.590 ***** ERROR ***** []   user='oecfmmg_desk'
+2025-12-30 22:35:34.590 ***** ERROR ***** []   error=SQLSTATE[HY000] [1045] Access denied for user 'oecfmmg_desk'@'localhost' (using password: YES)
+2025-12-30 22:37:39.948 ===== TRACE ===== NEW CONNECTED USER 'manager'
+2025-12-30 22:42:38.521 ===== TRACE ===== DISCONNECTED USER 'manager'
+2025-12-30 22:43:11.305 ===== TRACE ===== NEW CONNECTED USER 'manager'
+2025-12-30 23:13:23.649 ===== TRACE ===== DISCONNECTED USER 'manager'
+2025-12-30 23:13:34.219 ===== TRACE ===== NEW CONNECTED USER 'manager'
+2025-12-30 23:29:15.103 ===== TRACE ===== NEW CONNECTED USER 'manager'

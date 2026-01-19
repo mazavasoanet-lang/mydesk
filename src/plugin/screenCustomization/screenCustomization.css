@@ -1,0 +1,109 @@
+/*** COPYRIGHT NOTICE *********************************************************
+ *
+ * Copyright 2016 ProjeQtOr - Pascal BERNARD - support@projeqtor.org
+ *
+ ******************************************************************************
+ *** WARNING *** T H I S    F I L E    I S    N O T    O P E N    S O U R C E *
+ ******************************************************************************
+ * 
+ * This file is an add-on to ProjeQtOr, packaged as a plug-in module.
+ * It is NOT distributed under an open source license. 
+ * It is distributed in a proprietary mode, only to the customer who bought
+ * corresponding licence. 
+ * The company ProjeQtOr remains owner of all add-ons it delivers.
+ * Any change to an add-ons without the explicit agreement of the company 
+ * ProjeQtOr is prohibited.
+ * The diffusion (or any kind if distribution) of an add-on is prohibited.
+ * Violators will be prosecuted.
+ *    
+ *** DO NOT REMOVE THIS NOTICE ************************************************/
+ 
+/* =============================================================================== */
+/* Extra CSS for custom screen management                                          */
+/* =============================================================================== */
+
+.iconScreenCustomization { background-image: url(iconScreenCustomization32.png);  background-repeat: no-repeat; }
+
+.ProjeQtOrFlatBlue .iconButtonEdit16 { background-image: url(icons/blue/iconEdit.png);  background-repeat: no-repeat; width: 16px; height: 16px; background-size: 16px 16px;}
+.ProjeQtOrFlatBlue .iconButtonRemove16 { background-image: url(icons/blue/iconRemove.png);  background-repeat: no-repeat; width: 16px; height: 16px; background-size: 16px 16px;}
+.ProjeQtOrFlatBlue .iconButtonAdd16 { background-image: url(icons/blue/iconAdd.png);  background-repeat: no-repeat; width: 16px; height: 16px; background-size: 16px 16px;}
+.ProjeQtOrFlatBlue .iconScreenCustomization { background-image: url(icons/blue/iconScreenCustomization.png);  background-repeat: no-repeat; }
+
+.ProjeQtOrFlatRed .iconButtonEdit16 { background-image: url(icons/red/iconEdit.png);  background-repeat: no-repeat; width: 16px; height: 16px; background-size: 16px 16px;}
+.ProjeQtOrFlatRed .iconButtonRemove16 { background-image: url(icons/red/iconRemove.png);  background-repeat: no-repeat; width: 16px; height: 16px; background-size: 16px 16px;}
+.ProjeQtOrFlatRed .iconButtonAdd16 { background-image: url(icons/red/iconAdd.png);  background-repeat: no-repeat; width: 16px; height: 16px; background-size: 16px 16px;}
+.ProjeQtOrFlatRed .iconScreenCustomization { background-image: url(icons/red/iconScreenCustomization.png);  background-repeat: no-repeat; }
+
+.ProjeQtOrFlatGreen .iconButtonAdd16 { background-image: url(icons/green/iconAdd.png);  background-repeat: no-repeat; width: 16px; height: 16px; background-size: 16px 16px;}
+.ProjeQtOrFlatGreen .iconButtonEdit16 { background-image: url(icons/green/iconEdit.png);  background-repeat: no-repeat; width: 16px; height: 16px; background-size: 16px 16px;}
+.ProjeQtOrFlatGreen .iconButtonRemove16 { background-image: url(icons/green/iconRemove.png);  background-repeat: no-repeat; width: 16px; height: 16px; background-size: 16px 16px;}
+.ProjeQtOrFlatGreen .iconScreenCustomization { background-image: url(icons/green/iconScreenCustomization.png);  background-repeat: no-repeat; }
+
+.ProjeQtOrFlatGrey .iconButtonEdit16 { background-image: url(icons/grey/iconEdit.png);  background-repeat: no-repeat; width: 16px; height: 16px; background-size: 16px 16px;}
+.ProjeQtOrFlatGrey .iconButtonRemove16 { background-image: url(icons/grey/iconRemove.png);  background-repeat: no-repeat; width: 16px; height: 16px; background-size: 16px 16px;}
+.ProjeQtOrFlatGrey .iconButtonAdd16 { background-image: url(icons/grey/iconAdd.png);  background-repeat: no-repeat; width: 16px; height: 16px; background-size: 16px 16px;}
+.ProjeQtOrFlatGrey .iconScreenCustomization { background-image: url(icons/grey/iconScreenCustomization.png);  background-repeat: no-repeat; }
+
+.ProjeQtOrNewGui .iconScreenCustomization { background-image: url(icons/new/iconScreenCustomization.svg);  background-repeat: no-repeat; }
+
+.screenCustomisationType {
+	 -ms-transform: rotate(300deg); /* IE 9 */
+   -webkit-transform: rotate(300deg); /* Chrome, Safari, Opera */
+   transform: rotate(300deg);
+   width:100px; max-width: 80px;
+   font-weight: bold;
+   vertical-align: top;
+   text-align:left;
+}
+.screenCustomisationHideMessage {
+	z-index:999;
+	padding:5px; 
+	white-space:nowrap;
+	background-color : #eeeeee; 
+	font-weight: bold;
+	font-size:120%;
+	/*text-shadow: 2px 2px #ffffff;*/
+	text-align:center;
+	vertical-align:middle;
+	widht: 100%;
+	height:18px;
+	
+}
+.screenCustomizationLine {
+	height: 22px;
+}
+.screenCustomizationPseudoButton {
+	cursor: pointer;
+	display:table-cell;
+	border:1px solid #E0E0E0;
+	width:20px;
+	height:20px;
+	font-weight:bold;
+	text-align:center;
+	vertical-align:middle;
+	background:#E0E0E0;
+	margin-right:8px;
+  -webkit-transition: all 0.2s; /* Safari */
+  transition: all 0.2s;
+  
+}
+.screenCustomizationPseudoButton.selected {
+  border:1px solid #000000;
+  background:#FEFEFE;
+  -webkit-transition: all 0.2s; /* Safari */
+  transition: all 0.2s;
+}
+
+.screenCustomizationPseudoButton:hover, .screenCustomizationPseudoButton.selected:hover {
+  background:#E0E0FE;
+}
+.screenCustomizationPseudoButtonReset {
+	background:url(../../view/css/images/noX.gif);
+	cursor:pointer;
+	padding:0;
+	position:absolute;
+	top:-5px;
+	left:-4px;
+	width:12px;
+	height:12px;
+}

@@ -1,0 +1,9 @@
+2026-01-07 13:32:16.609 ===== TRACE ===== Login error for user 'manager'
+2026-01-07 13:32:46.382 ===== TRACE ===== Login error for user 'manager'
+2026-01-07 13:33:49.457 ===== TRACE ===== NEW CONNECTED USER 'mazavasoa'
+2026-01-07 16:11:37.487 ===== TRACE ===== DISCONNECTED USER 'mazavasoa'
+2026-01-07 16:14:51.907 ===== TRACE ===== NEW CONNECTED USER 'mazavasoa'
+2026-01-07 18:55:05.214 ===== TRACE ===== NEW CONNECTED USER 'gerahvalisoa@gmail.com' (using remember me feature)
+2026-01-07 21:23:28.467 ===== TRACE ===== DISCONNECTED USER 'mazavasoa'
+2026-01-07 21:24:24.231 ===== TRACE ===== NEW CONNECTED USER 'mazavasoa'
+2026-01-07 21:30:21.926 ===== TRACE ===== NEW CONNECTED USER 'gerahvalisoa@gmail.com' (using remember me feature)

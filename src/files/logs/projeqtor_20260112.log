@@ -1,0 +1,10 @@
+2026-01-12 00:51:40.460 ===== TRACE ===== DISCONNECTED USER 'gerahvalisoa@gmail.com'
+2026-01-12 04:53:20.895 ===== TRACE ===== NEW CONNECTED USER 'mazavasoa'
+2026-01-12 09:55:22.307 ===== TRACE ===== NEW CONNECTED USER 'mazavasoa'
+2026-01-12 12:25:35.400 ===== TRACE ===== NEW CONNECTED USER 'mazavasoa'
+2026-01-12 13:30:50.619 ===== TRACE ===== NEW CONNECTED USER 'mazavasoa'
+2026-01-12 16:22:04.104 ===== TRACE ===== NEW CONNECTED USER 'mazavasoa'
+2026-01-12 21:18:23.645 ===== TRACE ===== NEW CONNECTED USER 'mazavasoa'
+2026-01-12 21:35:05.840 ===== TRACE ===== sendMailIfMailable : Mails without dest
+2026-01-12 21:54:37.495 ===== TRACE ===== NEW CONNECTED USER 'gerahvalisoa@gmail.com'
+2026-01-12 21:55:35.601 ===== TRACE ===== DISCONNECTED USER 'gerahvalisoa@gmail.com'
