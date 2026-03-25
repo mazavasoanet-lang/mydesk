@@ -1,0 +1,297 @@
+2026-03-16 03:38:29.517 ===== TRACE ===== NEW CONNECTED USER 'mazavasoa'
+2026-03-16 03:39:26.386 ===== TRACE ===== DISCONNECTED USER 'mazavasoa'
+2026-03-16 03:39:41.684 ===== TRACE ===== NEW CONNECTED USER 'mazavasoa'
+2026-03-16 03:42:55.577 ===== TRACE ===== DISCONNECTED USER 'mazavasoa'
+2026-03-16 03:44:48.155 ===== TRACE ===== NEW CONNECTED USER 'mazavasoa'
+2026-03-16 07:28:08.948 ===== TRACE ===== NEW CONNECTED USER 'mazavasoa'
+2026-03-16 08:15:11.048 ===== TRACE ===== NEW CONNECTED USER 'digitalisation@oecfm.mg' (using remember me feature)
+2026-03-16 08:19:26.628 ===== TRACE ===== DISCONNECTED USER 'mazavasoa'
+2026-03-16 09:08:33.788 ===== TRACE ===== NEW CONNECTED USER 'mazavasoa'
+2026-03-16 09:26:09.871 ===== TRACE ===== NEW CONNECTED USER 'digitalisation@oecfm.mg'
+2026-03-16 09:27:53.034 ***** ERROR ***** [V11.2.3] Error sending mail
+2026-03-16 09:27:53.034 ***** ERROR ***** [V11.2.3]    SMTP Server : srv.oecfm.mg
+2026-03-16 09:27:53.034 ***** ERROR ***** [V11.2.3]    SMTP Port : 587
+2026-03-16 09:27:53.034 ***** ERROR ***** [V11.2.3]    Mail stored in Database : #58
+2026-03-16 09:27:53.034 ***** ERROR ***** [V11.2.3]    PHPMail error : SMTP connect() failed. https://github.com/PHPMailer/PHPMailer/wiki/Troubleshooting
+2026-03-16 09:27:53.034 ***** ERROR ***** [V11.2.3]    PHPMail debug : 
+2026-03-16 09:29:36.388 ***** ERROR ***** [V11.2.3] Error sending mail
+2026-03-16 09:29:36.388 ***** ERROR ***** [V11.2.3]    SMTP Server : srv.oecfm.mg
+2026-03-16 09:29:36.388 ***** ERROR ***** [V11.2.3]    SMTP Port : 587
+2026-03-16 09:29:36.388 ***** ERROR ***** [V11.2.3]    Mail stored in Database : #59
+2026-03-16 09:29:36.388 ***** ERROR ***** [V11.2.3]    PHPMail error : SMTP connect() failed. https://github.com/PHPMailer/PHPMailer/wiki/Troubleshooting
+2026-03-16 09:29:36.388 ***** ERROR ***** [V11.2.3]    PHPMail debug : 
+2026-03-16 09:31:22.202 ***** ERROR ***** [V11.2.3] Error sending mail
+2026-03-16 09:31:22.203 ***** ERROR ***** [V11.2.3]    SMTP Server : srv.oecfm.mg
+2026-03-16 09:31:22.203 ***** ERROR ***** [V11.2.3]    SMTP Port : 587
+2026-03-16 09:31:22.203 ***** ERROR ***** [V11.2.3]    Mail stored in Database : #60
+2026-03-16 09:31:22.203 ***** ERROR ***** [V11.2.3]    PHPMail error : SMTP connect() failed. https://github.com/PHPMailer/PHPMailer/wiki/Troubleshooting
+2026-03-16 09:31:22.203 ***** ERROR ***** [V11.2.3]    PHPMail debug : 
+2026-03-16 09:33:38.203 ***** ERROR ***** [V11.2.3] Error sending mail
+2026-03-16 09:33:38.204 ***** ERROR ***** [V11.2.3]    SMTP Server : srv.oecfm.mg
+2026-03-16 09:33:38.204 ***** ERROR ***** [V11.2.3]    SMTP Port : 587
+2026-03-16 09:33:38.204 ***** ERROR ***** [V11.2.3]    Mail stored in Database : #61
+2026-03-16 09:33:38.204 ***** ERROR ***** [V11.2.3]    PHPMail error : SMTP connect() failed. https://github.com/PHPMailer/PHPMailer/wiki/Troubleshooting
+2026-03-16 09:33:38.204 ***** ERROR ***** [V11.2.3]    PHPMail debug : 
+2026-03-16 09:54:36.108 ===== TRACE ===== DISCONNECTED USER 'mazavasoa'
+2026-03-16 09:54:52.313 ===== TRACE ===== NEW CONNECTED USER 'mazavasoa'
+2026-03-16 10:10:49.385 ***** ERROR ***** [V11.2.3] Error sending mail
+2026-03-16 10:10:49.385 ***** ERROR ***** [V11.2.3]    SMTP Server : srv.oecfm.mg
+2026-03-16 10:10:49.385 ***** ERROR ***** [V11.2.3]    SMTP Port : 587
+2026-03-16 10:10:49.385 ***** ERROR ***** [V11.2.3]    Mail stored in Database : #
+2026-03-16 10:10:49.385 ***** ERROR ***** [V11.2.3]    PHPMail error : SMTP connect() failed. https://github.com/PHPMailer/PHPMailer/wiki/Troubleshooting
+2026-03-16 10:10:49.385 ***** ERROR ***** [V11.2.3]    PHPMail debug : 
+2026-03-16 10:16:22.403 ===== TRACE ===== DISCONNECTED USER 'mazavasoa'
+2026-03-16 10:16:38.155 ===== TRACE ===== NEW CONNECTED USER 'mazavasoa'
+2026-03-16 10:18:02.644 ===== TRACE ===== DISCONNECTED USER 'mazavasoa'
+2026-03-16 10:18:11.166 ===== TRACE ===== NEW CONNECTED USER 'mazavasoa'
+2026-03-16 10:20:34.291 ***** ERROR ***** [V11.2.3] Error sending mail
+2026-03-16 10:20:34.291 ***** ERROR ***** [V11.2.3]    SMTP Server : srv.oecfm.mg
+2026-03-16 10:20:34.291 ***** ERROR ***** [V11.2.3]    SMTP Port : 587
+2026-03-16 10:20:34.291 ***** ERROR ***** [V11.2.3]    Mail stored in Database : #
+2026-03-16 10:20:34.291 ***** ERROR ***** [V11.2.3]    PHPMail error : SMTP connect() failed. https://github.com/PHPMailer/PHPMailer/wiki/Troubleshooting
+2026-03-16 10:20:34.291 ***** ERROR ***** [V11.2.3]    PHPMail debug : 
+2026-03-16 10:25:19.413 ***** ERROR ***** [V11.2.3] Error sending mail
+2026-03-16 10:25:19.413 ***** ERROR ***** [V11.2.3]    SMTP Server : srv.oecfm.mg
+2026-03-16 10:25:19.413 ***** ERROR ***** [V11.2.3]    SMTP Port : 587
+2026-03-16 10:25:19.413 ***** ERROR ***** [V11.2.3]    Mail stored in Database : #
+2026-03-16 10:25:19.413 ***** ERROR ***** [V11.2.3]    PHPMail error : SMTP connect() failed. https://github.com/PHPMailer/PHPMailer/wiki/Troubleshooting
+2026-03-16 10:25:19.413 ***** ERROR ***** [V11.2.3]    PHPMail debug : 
+2026-03-16 10:25:38.502 ***** ERROR ***** [V11.2.3] Error sending mail
+2026-03-16 10:25:38.502 ***** ERROR ***** [V11.2.3]    SMTP Server : srv.oecfm.mg
+2026-03-16 10:25:38.502 ***** ERROR ***** [V11.2.3]    SMTP Port : 587
+2026-03-16 10:25:38.502 ***** ERROR ***** [V11.2.3]    Mail stored in Database : #
+2026-03-16 10:25:38.502 ***** ERROR ***** [V11.2.3]    PHPMail error : SMTP connect() failed. https://github.com/PHPMailer/PHPMailer/wiki/Troubleshooting
+2026-03-16 10:25:38.502 ***** ERROR ***** [V11.2.3]    PHPMail debug : 
+2026-03-16 10:26:19.843 ===== TRACE ===== NEW CONNECTED USER 'digitalisation@oecfm.mg' (using remember me feature)
+2026-03-16 10:26:22.339 ***** ERROR ***** [V11.2.3] Error sending mail
+2026-03-16 10:26:22.339 ***** ERROR ***** [V11.2.3]    SMTP Server : srv.oecfm.mg
+2026-03-16 10:26:22.339 ***** ERROR ***** [V11.2.3]    SMTP Port : 587
+2026-03-16 10:26:22.339 ***** ERROR ***** [V11.2.3]    Mail stored in Database : #
+2026-03-16 10:26:22.339 ***** ERROR ***** [V11.2.3]    PHPMail error : SMTP connect() failed. https://github.com/PHPMailer/PHPMailer/wiki/Troubleshooting
+2026-03-16 10:26:22.339 ***** ERROR ***** [V11.2.3]    PHPMail debug : 
+2026-03-16 10:26:58.341 ***** ERROR ***** [V11.2.3] Error sending mail
+2026-03-16 10:26:58.341 ***** ERROR ***** [V11.2.3]    SMTP Server : srv.oecfm.mg
+2026-03-16 10:26:58.341 ***** ERROR ***** [V11.2.3]    SMTP Port : 587
+2026-03-16 10:26:58.341 ***** ERROR ***** [V11.2.3]    Mail stored in Database : #
+2026-03-16 10:26:58.341 ***** ERROR ***** [V11.2.3]    PHPMail error : SMTP connect() failed. https://github.com/PHPMailer/PHPMailer/wiki/Troubleshooting
+2026-03-16 10:26:58.341 ***** ERROR ***** [V11.2.3]    PHPMail debug : 
+2026-03-16 10:29:52.598 ===== TRACE ===== DISCONNECTED USER 'digitalisation@oecfm.mg'
+2026-03-16 10:29:59.585 ===== TRACE ===== NEW CONNECTED USER 'digitalisation@oecfm.mg' (using remember me feature)
+2026-03-16 10:34:00.377 ***** ERROR ***** [V11.2.3] Error sending mail
+2026-03-16 10:34:00.377 ***** ERROR ***** [V11.2.3]    SMTP Server : srv.oecfm.mg
+2026-03-16 10:34:00.377 ***** ERROR ***** [V11.2.3]    SMTP Port : 587
+2026-03-16 10:34:00.377 ***** ERROR ***** [V11.2.3]    Mail stored in Database : #62
+2026-03-16 10:34:00.377 ***** ERROR ***** [V11.2.3]    PHPMail error : SMTP connect() failed. https://github.com/PHPMailer/PHPMailer/wiki/Troubleshooting
+2026-03-16 10:34:00.377 ***** ERROR ***** [V11.2.3]    PHPMail debug : 
+2026-03-16 10:35:57.030 ***** ERROR ***** [V11.2.3] Error sending mail
+2026-03-16 10:35:57.030 ***** ERROR ***** [V11.2.3]    SMTP Server : srv.oecfm.mg
+2026-03-16 10:35:57.030 ***** ERROR ***** [V11.2.3]    SMTP Port : 587
+2026-03-16 10:35:57.030 ***** ERROR ***** [V11.2.3]    Mail stored in Database : #63
+2026-03-16 10:35:57.030 ***** ERROR ***** [V11.2.3]    PHPMail error : SMTP connect() failed. https://github.com/PHPMailer/PHPMailer/wiki/Troubleshooting
+2026-03-16 10:35:57.030 ***** ERROR ***** [V11.2.3]    PHPMail debug : 
+2026-03-16 10:36:51.150 ***** ERROR ***** [V11.2.3] Error sending mail
+2026-03-16 10:36:51.150 ***** ERROR ***** [V11.2.3]    SMTP Server : srv.oecfm.mg
+2026-03-16 10:36:51.150 ***** ERROR ***** [V11.2.3]    SMTP Port : 587
+2026-03-16 10:36:51.150 ***** ERROR ***** [V11.2.3]    Mail stored in Database : #64
+2026-03-16 10:36:51.150 ***** ERROR ***** [V11.2.3]    PHPMail error : SMTP connect() failed. https://github.com/PHPMailer/PHPMailer/wiki/Troubleshooting
+2026-03-16 10:36:51.150 ***** ERROR ***** [V11.2.3]    PHPMail debug : 
+2026-03-16 10:40:07.375 ***** ERROR ***** [V11.2.3] Error sending mail
+2026-03-16 10:40:07.375 ***** ERROR ***** [V11.2.3]    SMTP Server : srv.oecfm.mg
+2026-03-16 10:40:07.375 ***** ERROR ***** [V11.2.3]    SMTP Port : 587
+2026-03-16 10:40:07.375 ***** ERROR ***** [V11.2.3]    Mail stored in Database : #65
+2026-03-16 10:40:07.375 ***** ERROR ***** [V11.2.3]    PHPMail error : SMTP connect() failed. https://github.com/PHPMailer/PHPMailer/wiki/Troubleshooting
+2026-03-16 10:40:07.375 ***** ERROR ***** [V11.2.3]    PHPMail debug : 
+2026-03-16 10:40:36.252 ***** ERROR ***** [V11.2.3] Error sending mail
+2026-03-16 10:40:36.253 ***** ERROR ***** [V11.2.3]    SMTP Server : srv.oecfm.mg
+2026-03-16 10:40:36.253 ***** ERROR ***** [V11.2.3]    SMTP Port : 587
+2026-03-16 10:40:36.253 ***** ERROR ***** [V11.2.3]    Mail stored in Database : #66
+2026-03-16 10:40:36.253 ***** ERROR ***** [V11.2.3]    PHPMail error : SMTP connect() failed. https://github.com/PHPMailer/PHPMailer/wiki/Troubleshooting
+2026-03-16 10:40:36.253 ***** ERROR ***** [V11.2.3]    PHPMail debug : 
+2026-03-16 10:41:49.268 ***** ERROR ***** [V11.2.3] Error sending mail
+2026-03-16 10:41:49.268 ***** ERROR ***** [V11.2.3]    SMTP Server : srv.oecfm.mg
+2026-03-16 10:41:49.268 ***** ERROR ***** [V11.2.3]    SMTP Port : 587
+2026-03-16 10:41:49.268 ***** ERROR ***** [V11.2.3]    Mail stored in Database : #67
+2026-03-16 10:41:49.268 ***** ERROR ***** [V11.2.3]    PHPMail error : SMTP connect() failed. https://github.com/PHPMailer/PHPMailer/wiki/Troubleshooting
+2026-03-16 10:41:49.268 ***** ERROR ***** [V11.2.3]    PHPMail debug : 
+2026-03-16 10:42:02.320 ***** ERROR ***** [V11.2.3] Error sending mail
+2026-03-16 10:42:02.320 ***** ERROR ***** [V11.2.3]    SMTP Server : srv.oecfm.mg
+2026-03-16 10:42:02.320 ***** ERROR ***** [V11.2.3]    SMTP Port : 587
+2026-03-16 10:42:02.320 ***** ERROR ***** [V11.2.3]    Mail stored in Database : #68
+2026-03-16 10:42:02.320 ***** ERROR ***** [V11.2.3]    PHPMail error : You must provide at least one recipient email address.
+2026-03-16 10:42:02.320 ***** ERROR ***** [V11.2.3]    PHPMail debug : 
+2026-03-16 10:43:25.898 ===== TRACE ===== sendMailIfMailable : Mails without dest
+2026-03-16 10:44:02.025 ***** ERROR ***** [V11.2.3] Error sending mail
+2026-03-16 10:44:02.025 ***** ERROR ***** [V11.2.3]    SMTP Server : srv.oecfm.mg
+2026-03-16 10:44:02.025 ***** ERROR ***** [V11.2.3]    SMTP Port : 587
+2026-03-16 10:44:02.025 ***** ERROR ***** [V11.2.3]    Mail stored in Database : #69
+2026-03-16 10:44:02.025 ***** ERROR ***** [V11.2.3]    PHPMail error : SMTP connect() failed. https://github.com/PHPMailer/PHPMailer/wiki/Troubleshooting
+2026-03-16 10:44:02.025 ***** ERROR ***** [V11.2.3]    PHPMail debug : 
+2026-03-16 10:44:13.082 ***** ERROR ***** [V11.2.3] Exception-[42S22] SQLSTATE[42S22]: Column not found: 1054 Unknown column '10Status' in 'IN/ALL/ANY subquery'
+2026-03-16 10:44:13.082 ***** ERROR ***** [V11.2.3]    For query : select * from status where id in (select distinct idStatus from mail) or id in (0, 10Status) order by sortOrder asc
+2026-03-16 10:44:13.082 ***** ERROR ***** [V11.2.3]    Strack trace :
+2026-03-16 10:44:13.082 ***** ERROR ***** [V11.2.3]    #0 Sql->query called at [/var/www/html/model/persistence/SqlElement.php:3065]
+2026-03-16 10:44:13.082 ***** ERROR ***** [V11.2.3]    #1 SqlElement->getSqlElementsFromCriteria called at [/var/www/html/model/persistence/SqlElement.php:8969]
+2026-03-16 10:44:13.082 ***** ERROR ***** [V11.2.3]    #2 SqlElement->getExistingStatus called at [/var/www/html/view/objectList.php:211]
+2026-03-16 10:44:13.082 ***** ERROR ***** [V11.2.3]    #3 include called at [/var/www/html/view/objectMain.php:121]
+2026-03-16 10:44:13.086 ***** ERROR ***** [V11.2.3] Exception-[42S22] SQLSTATE[42S22]: Column not found: 1054 Unknown column '10Status' in 'IN/ALL/ANY subquery'
+2026-03-16 10:44:13.086 ***** ERROR ***** [V11.2.3]    For query : select * from status where id in (select distinct idStatus from mail) or id in (0, 10Status) order by sortOrder asc
+2026-03-16 10:44:13.086 ***** ERROR ***** [V11.2.3]    Strack trace :
+2026-03-16 10:44:13.086 ***** ERROR ***** [V11.2.3]    #0 Sql->query called at [/var/www/html/model/persistence/SqlElement.php:3065]
+2026-03-16 10:44:13.086 ***** ERROR ***** [V11.2.3]    #1 SqlElement->getSqlElementsFromCriteria called at [/var/www/html/model/persistence/SqlElement.php:8969]
+2026-03-16 10:44:13.086 ***** ERROR ***** [V11.2.3]    #2 SqlElement->getExistingStatus called at [/var/www/html/tool/displayQuickFilterList.php:83]
+2026-03-16 10:44:13.086 ***** ERROR ***** [V11.2.3]    #3 include called at [/var/www/html/view/objectList.php:1238]
+2026-03-16 10:44:13.086 ***** ERROR ***** [V11.2.3]    #4 include called at [/var/www/html/view/objectMain.php:121]
+2026-03-16 10:44:13.097 ***** ERROR ***** [V11.2.3] Exception-[42S22] SQLSTATE[42S22]: Column not found: 1054 Unknown column '10Status' in 'IN/ALL/ANY subquery'
+2026-03-16 10:44:13.097 ***** ERROR ***** [V11.2.3]    For query : select * from status where id in (select distinct idStatus from mail) or id in (0, 10Status) order by sortOrder asc
+2026-03-16 10:44:13.097 ***** ERROR ***** [V11.2.3]    Strack trace :
+2026-03-16 10:44:13.097 ***** ERROR ***** [V11.2.3]    #0 Sql->query called at [/var/www/html/model/persistence/SqlElement.php:3065]
+2026-03-16 10:44:13.097 ***** ERROR ***** [V11.2.3]    #1 SqlElement->getSqlElementsFromCriteria called at [/var/www/html/model/persistence/SqlElement.php:8969]
+2026-03-16 10:44:13.097 ***** ERROR ***** [V11.2.3]    #2 SqlElement->getExistingStatus called at [/var/www/html/view/objectList.php:1773]
+2026-03-16 10:44:13.097 ***** ERROR ***** [V11.2.3]    #3 include called at [/var/www/html/view/objectMain.php:121]
+2026-03-16 10:45:06.283 ***** ERROR ***** [V11.2.3] Error sending mail
+2026-03-16 10:45:06.283 ***** ERROR ***** [V11.2.3]    SMTP Server : srv.oecfm.mg
+2026-03-16 10:45:06.283 ***** ERROR ***** [V11.2.3]    SMTP Port : 587
+2026-03-16 10:45:06.283 ***** ERROR ***** [V11.2.3]    Mail stored in Database : #70
+2026-03-16 10:45:06.283 ***** ERROR ***** [V11.2.3]    PHPMail error : SMTP connect() failed. https://github.com/PHPMailer/PHPMailer/wiki/Troubleshooting
+2026-03-16 10:45:06.283 ***** ERROR ***** [V11.2.3]    PHPMail debug : 
+2026-03-16 10:46:33.898 ***** ERROR ***** [V11.2.3] Error sending mail
+2026-03-16 10:46:33.899 ***** ERROR ***** [V11.2.3]    SMTP Server : srv.oecfm.mg
+2026-03-16 10:46:33.899 ***** ERROR ***** [V11.2.3]    SMTP Port : 587
+2026-03-16 10:46:33.899 ***** ERROR ***** [V11.2.3]    Sendmail path : /usr/sbin/sendmail -t -i
+2026-03-16 10:46:33.899 ***** ERROR ***** [V11.2.3]    Mail stored in Database : #71
+2026-03-16 11:00:55.256 ===== TRACE ===== DISCONNECTED USER 'mazavasoa'
+2026-03-16 11:01:02.608 ===== TRACE ===== NEW CONNECTED USER 'mazavasoa'
+2026-03-16 11:01:27.063 ***** ERROR ***** [V11.2.3] Error sending mail
+2026-03-16 11:01:27.063 ***** ERROR ***** [V11.2.3]    SMTP Server : smtp.gmail.com
+2026-03-16 11:01:27.063 ***** ERROR ***** [V11.2.3]    SMTP Port : 587
+2026-03-16 11:01:27.063 ***** ERROR ***** [V11.2.3]    Mail stored in Database : #72
+2026-03-16 11:01:27.063 ***** ERROR ***** [V11.2.3]    PHPMail error : SMTP connect() failed. https://github.com/PHPMailer/PHPMailer/wiki/Troubleshooting
+2026-03-16 11:01:27.063 ***** ERROR ***** [V11.2.3]    PHPMail debug : 
+2026-03-16 11:01:47.647 ***** ERROR ***** [V11.2.3] Error sending mail
+2026-03-16 11:01:47.647 ***** ERROR ***** [V11.2.3]    SMTP Server : smtp.gmail.com
+2026-03-16 11:01:47.647 ***** ERROR ***** [V11.2.3]    SMTP Port : 587
+2026-03-16 11:01:47.647 ***** ERROR ***** [V11.2.3]    Sendmail path : /usr/sbin/sendmail -t -i
+2026-03-16 11:01:47.647 ***** ERROR ***** [V11.2.3]    Mail stored in Database : #73
+2026-03-16 11:02:14.923 ***** ERROR ***** [V11.2.3] Exception-[42000] SQLSTATE[42000]: Syntax error or access violation: 1253 COLLATION 'utf32_general_ci' is not valid for CHARACTER SET 'utf8mb4'
+2026-03-16 11:02:14.924 ***** ERROR ***** [V11.2.3]    For query : SELECT planningelement.* , activity.idStatus as activitystatus, activity.idActivityType as activitytype, activity.fixPlanning as activityfixplanning, activity.workOnRealTime as activityworkonrealtime , project.idStatus as projectstatus, project.idProjectType as projecttype, project.isUnderConstruction as projectisunderconstruction, project.fixPlanning as projectfixplanning
+ FROM 
+  ( SELECT cast(id as CHAR) COLLATE utf32_general_ci as id,color,idProject,cast(refType AS CHAR) COLLATE utf32_general_ci as refType,refId,refName,topId,topRefType,topRefId,
+        priority,elementary,idle,done,cancelled,idPlanningMode,idBill,
+        initialStartDate,validatedStartDate,validatedStartFraction,plannedStartDate,plannedStartFraction,realStartDate,
+        initialEndDate,validatedEndDate,validatedEndFraction,plannedEndDate,plannedEndFraction,realEndDate,
+        latestStartDate,latestEndDate,
+        initialDuration,validatedDuration,plannedDuration,realDuration,
+        initialWork,validatedWork,assignedWork,plannedWork,leftWork,realWork,
+        validatedCost,assignedCost,plannedCost,leftCost,realCost,
+        progress,expectedProgress,wbs,wbsSortable,isOnCriticalPath,notPlannedWork, needReplan,
+        null as idType, null as idStatus, null as idResource, 0 as isGlobal , null as paused
+      FROM planningelement
+    WHERE  ((planningelement.idProject not in (0) or planningelement.idProject is null ) and (planningelement.idProject not in (0) or planningelement.idProject is null or (1=4) ) and (planningelement.idProject not in (0) or planningelement.idProject is null or (1=3) )) 
+  UNION 
+    SELECT coalesce(cast( (pex.id+1000000000) AS CHAR) COLLATE utf32_general_ci,concat('Ticket','_',ticket.id)) as id, null as color, ticket.idProject as idProject, cast('Ticket' AS CHAR) COLLATE utf32_general_ci as refType, ticket.id as refId, ticket.name as refName, null as topId, 'Project' as topRefType, ticket.idProject as topRefId, 
+      null as priority, 1 as elementary, ticket.idle as idle, ticket.done as done, ticket.cancelled as cancelled, 8 as idPlanningMode, null as idBill, 
+      null as initialStartDate, null as validatedStartDate, 0 as validatedStartFraction, ticket.actualDueDateTime as plannedStartDate, 0 as plannedStartFraction, ticket.handledDateTime as realStartDate, 
+      null as initialEndDate, ticket.initialDueDateTime as validatedEndDate, 1 as validatedEndFraction, ticket.actualDueDateTime as plannedEndDate, 1 as plannedEndFraction, ticket.doneDateTime as realEndDate, null as latestStartDate, null as latestEndDate, 
+      null as initialDuration, 1 as validatedDuration, null as plannedDuration, null as realDuration, 
+      null as initialWork, we.plannedWork as validatedWork, null as assignedWork, we.leftWork+we.realWork as plannedWork, we.leftWork as leftWork, we.realWork as realWork, 
+      null as validatedCost, null as assignedCost, null as plannedCost, null as leftCost, null as realCost, 
+      null as progress, null as expectedProgress, coalesce(pex.wbs,concat(pe.wbs,'._#',ticket.id)) as wbs, coalesce(pex.wbsSortable,concat(pe.wbsSortable,'._#',ticket.id)) as wbsSortable, null as isOnCriticalPath, null as notPlannedWork, null as needReplan, ticket.idTicketType as idType, ticket.idStatus as idStatus, ticket.idResource as idResource, 1 as isGlobal, null as paused
+    FROM ticket LEFT JOIN planningelement AS pe ON pe.refType='Project' and pe.refId=ticket.idProject LEFT JOIN planningelementextension as pex ON pex.refType='Ticket' and pex.refId=ticket.id 
+        LEFT JOIN workelement AS we ON we.refType='Ticket' AND we.refId=ticket.id  WHERE  ((ticket.idProject not in (0) or ticket.idProject is null ) and (ticket.idProject not in (0) or ticket.idProject is null or (ticket.idResource=1) ) and (ticket.idProject not in (0) or ticket.idProject is null or (ticket.idUser=1) )) and ticket.idProject not in (0)) as planningelement left join activity on planningelement.refType='Activity' and planningelement.refId=activity.id  left join project on planningelement.refType='Project' and planningelement.refId=project.id 
+ WHERE planningelement.idle=0  and (1=1) and ( (planningelement.idProject in (0, 1, 2, 3, 15, 11, 16, 17)) and planningelement.idProject not in (0,1,15)) and planningelement.idProject not in (0)
+ ORDER BY planningelement.wbsSortable 
+ LIMIT 2001
+2026-03-16 11:02:14.924 ***** ERROR ***** [V11.2.3]    Strack trace :
+2026-03-16 11:02:14.924 ***** ERROR ***** [V11.2.3]    #0 Sql->query called at [/var/www/html/tool/jsonPlanning.php:343]
+2026-03-16 11:02:14.924 ***** ERROR ***** [V11.2.3]    #1 include called at [/var/www/html/view/globalPlanningList.php:328]
+2026-03-16 11:02:14.924 ***** ERROR ***** [V11.2.3]    #2 include called at [/var/www/html/view/globalPlanningMain.php:100]
+2026-03-16 11:02:57.583 ***** ERROR ***** [V11.2.3] Error sending mail
+2026-03-16 11:02:57.583 ***** ERROR ***** [V11.2.3]    SMTP Server : smtp.gmail.com
+2026-03-16 11:02:57.584 ***** ERROR ***** [V11.2.3]    SMTP Port : 465
+2026-03-16 11:02:57.584 ***** ERROR ***** [V11.2.3]    Sendmail path : /usr/sbin/sendmail -t -i
+2026-03-16 11:02:57.584 ***** ERROR ***** [V11.2.3]    Mail stored in Database : #74
+2026-03-16 11:03:15.934 ***** ERROR ***** [V11.2.3] Error sending mail
+2026-03-16 11:03:15.934 ***** ERROR ***** [V11.2.3]    SMTP Server : smtp.gmail.com
+2026-03-16 11:03:15.934 ***** ERROR ***** [V11.2.3]    SMTP Port : 465
+2026-03-16 11:03:15.934 ***** ERROR ***** [V11.2.3]    Mail stored in Database : #75
+2026-03-16 11:03:15.934 ***** ERROR ***** [V11.2.3]    PHPMail error : SMTP connect() failed. https://github.com/PHPMailer/PHPMailer/wiki/Troubleshooting
+2026-03-16 11:03:15.934 ***** ERROR ***** [V11.2.3]    PHPMail debug : 
+2026-03-16 11:08:58.770 ***** ERROR ***** [V11.2.3] Exception-[42000] SQLSTATE[42000]: Syntax error or access violation: 1253 COLLATION 'utf32_general_ci' is not valid for CHARACTER SET 'utf8mb4'
+2026-03-16 11:08:58.770 ***** ERROR ***** [V11.2.3]    For query : SELECT planningelement.* , activity.idStatus as activitystatus, activity.idActivityType as activitytype, activity.fixPlanning as activityfixplanning, activity.workOnRealTime as activityworkonrealtime , project.idStatus as projectstatus, project.idProjectType as projecttype, project.isUnderConstruction as projectisunderconstruction, project.fixPlanning as projectfixplanning
+ FROM 
+  ( SELECT cast(id as CHAR) COLLATE utf32_general_ci as id,color,idProject,cast(refType AS CHAR) COLLATE utf32_general_ci as refType,refId,refName,topId,topRefType,topRefId,
+        priority,elementary,idle,done,cancelled,idPlanningMode,idBill,
+        initialStartDate,validatedStartDate,validatedStartFraction,plannedStartDate,plannedStartFraction,realStartDate,
+        initialEndDate,validatedEndDate,validatedEndFraction,plannedEndDate,plannedEndFraction,realEndDate,
+        latestStartDate,latestEndDate,
+        initialDuration,validatedDuration,plannedDuration,realDuration,
+        initialWork,validatedWork,assignedWork,plannedWork,leftWork,realWork,
+        validatedCost,assignedCost,plannedCost,leftCost,realCost,
+        progress,expectedProgress,wbs,wbsSortable,isOnCriticalPath,notPlannedWork, needReplan,
+        null as idType, null as idStatus, null as idResource, 0 as isGlobal , null as paused
+      FROM planningelement
+    WHERE  ((planningelement.idProject not in (0) or planningelement.idProject is null ) and (planningelement.idProject not in (0) or planningelement.idProject is null or (1=4) ) and (planningelement.idProject not in (0) or planningelement.idProject is null or (1=3) )) 
+  UNION 
+    SELECT coalesce(cast( (pex.id+1000000000) AS CHAR) COLLATE utf32_general_ci,concat('Ticket','_',ticket.id)) as id, null as color, ticket.idProject as idProject, cast('Ticket' AS CHAR) COLLATE utf32_general_ci as refType, ticket.id as refId, ticket.name as refName, null as topId, 'Project' as topRefType, ticket.idProject as topRefId, 
+      null as priority, 1 as elementary, ticket.idle as idle, ticket.done as done, ticket.cancelled as cancelled, 8 as idPlanningMode, null as idBill, 
+      null as initialStartDate, null as validatedStartDate, 0 as validatedStartFraction, ticket.actualDueDateTime as plannedStartDate, 0 as plannedStartFraction, ticket.handledDateTime as realStartDate, 
+      null as initialEndDate, ticket.initialDueDateTime as validatedEndDate, 1 as validatedEndFraction, ticket.actualDueDateTime as plannedEndDate, 1 as plannedEndFraction, ticket.doneDateTime as realEndDate, null as latestStartDate, null as latestEndDate, 
+      null as initialDuration, 1 as validatedDuration, null as plannedDuration, null as realDuration, 
+      null as initialWork, we.plannedWork as validatedWork, null as assignedWork, we.leftWork+we.realWork as plannedWork, we.leftWork as leftWork, we.realWork as realWork, 
+      null as validatedCost, null as assignedCost, null as plannedCost, null as leftCost, null as realCost, 
+      null as progress, null as expectedProgress, coalesce(pex.wbs,concat(pe.wbs,'._#',ticket.id)) as wbs, coalesce(pex.wbsSortable,concat(pe.wbsSortable,'._#',ticket.id)) as wbsSortable, null as isOnCriticalPath, null as notPlannedWork, null as needReplan, ticket.idTicketType as idType, ticket.idStatus as idStatus, ticket.idResource as idResource, 1 as isGlobal, null as paused
+    FROM ticket LEFT JOIN planningelement AS pe ON pe.refType='Project' and pe.refId=ticket.idProject LEFT JOIN planningelementextension as pex ON pex.refType='Ticket' and pex.refId=ticket.id 
+        LEFT JOIN workelement AS we ON we.refType='Ticket' AND we.refId=ticket.id  WHERE  ((ticket.idProject not in (0) or ticket.idProject is null ) and (ticket.idProject not in (0) or ticket.idProject is null or (ticket.idResource=1) ) and (ticket.idProject not in (0) or ticket.idProject is null or (ticket.idUser=1) )) and ticket.idProject not in (0)) as planningelement left join activity on planningelement.refType='Activity' and planningelement.refId=activity.id  left join project on planningelement.refType='Project' and planningelement.refId=project.id 
+ WHERE planningelement.idle=0  and (1=1) and ( (planningelement.idProject in (0, 1, 2, 3, 15, 11, 16, 17)) and planningelement.idProject not in (0,1,15)) and planningelement.idProject not in (0)
+ ORDER BY planningelement.wbsSortable 
+ LIMIT 2001
+2026-03-16 11:08:58.770 ***** ERROR ***** [V11.2.3]    Strack trace :
+2026-03-16 11:08:58.770 ***** ERROR ***** [V11.2.3]    #0 Sql->query called at [/var/www/html/tool/jsonPlanning.php:343]
+2026-03-16 11:08:58.770 ***** ERROR ***** [V11.2.3]    #1 include called at [/var/www/html/view/globalPlanningList.php:328]
+2026-03-16 11:08:58.770 ***** ERROR ***** [V11.2.3]    #2 include called at [/var/www/html/view/globalPlanningMain.php:100]
+2026-03-16 11:16:22.749 ===== TRACE ===== NEW CONNECTED USER 'digitalisation@oecfm.mg' (using remember me feature)
+2026-03-16 12:47:39.601 ===== TRACE ===== NEW CONNECTED USER 'mhftiana@ymail.com'
+2026-03-16 14:06:04.439 ===== TRACE ===== NEW CONNECTED USER 'mazavasoa'
+2026-03-16 14:26:10.969 ===== TRACE ===== NEW CONNECTED USER 'mazavasoa'
+2026-03-16 14:30:03.973 ===== TRACE ===== NEW CONNECTED USER 'digitalisation@oecfm.mg' (using remember me feature)
+2026-03-16 14:33:00.846 ***** ERROR ***** [V11.2.3] Exception-[42S22] SQLSTATE[42S22]: Column not found: 1054 Unknown column '10Status' in 'IN/ALL/ANY subquery'
+2026-03-16 14:33:00.846 ***** ERROR ***** [V11.2.3]    For query : select * from status where id in (select distinct idStatus from mail) or id in (0, 10Status) order by sortOrder asc
+2026-03-16 14:33:00.846 ***** ERROR ***** [V11.2.3]    Strack trace :
+2026-03-16 14:33:00.846 ***** ERROR ***** [V11.2.3]    #0 Sql->query called at [/var/www/html/model/persistence/SqlElement.php:3065]
+2026-03-16 14:33:00.846 ***** ERROR ***** [V11.2.3]    #1 SqlElement->getSqlElementsFromCriteria called at [/var/www/html/model/persistence/SqlElement.php:8969]
+2026-03-16 14:33:00.846 ***** ERROR ***** [V11.2.3]    #2 SqlElement->getExistingStatus called at [/var/www/html/view/objectList.php:211]
+2026-03-16 14:33:00.846 ***** ERROR ***** [V11.2.3]    #3 include called at [/var/www/html/view/objectMain.php:121]
+2026-03-16 14:33:00.849 ***** ERROR ***** [V11.2.3] Exception-[42S22] SQLSTATE[42S22]: Column not found: 1054 Unknown column '10Status' in 'IN/ALL/ANY subquery'
+2026-03-16 14:33:00.849 ***** ERROR ***** [V11.2.3]    For query : select * from status where id in (select distinct idStatus from mail) or id in (0, 10Status) order by sortOrder asc
+2026-03-16 14:33:00.849 ***** ERROR ***** [V11.2.3]    Strack trace :
+2026-03-16 14:33:00.849 ***** ERROR ***** [V11.2.3]    #0 Sql->query called at [/var/www/html/model/persistence/SqlElement.php:3065]
+2026-03-16 14:33:00.849 ***** ERROR ***** [V11.2.3]    #1 SqlElement->getSqlElementsFromCriteria called at [/var/www/html/model/persistence/SqlElement.php:8969]
+2026-03-16 14:33:00.849 ***** ERROR ***** [V11.2.3]    #2 SqlElement->getExistingStatus called at [/var/www/html/tool/displayQuickFilterList.php:83]
+2026-03-16 14:33:00.849 ***** ERROR ***** [V11.2.3]    #3 include called at [/var/www/html/view/objectList.php:1238]
+2026-03-16 14:33:00.849 ***** ERROR ***** [V11.2.3]    #4 include called at [/var/www/html/view/objectMain.php:121]
+2026-03-16 14:33:00.862 ***** ERROR ***** [V11.2.3] Exception-[42S22] SQLSTATE[42S22]: Column not found: 1054 Unknown column '10Status' in 'IN/ALL/ANY subquery'
+2026-03-16 14:33:00.862 ***** ERROR ***** [V11.2.3]    For query : select * from status where id in (select distinct idStatus from mail) or id in (0, 10Status) order by sortOrder asc
+2026-03-16 14:33:00.862 ***** ERROR ***** [V11.2.3]    Strack trace :
+2026-03-16 14:33:00.862 ***** ERROR ***** [V11.2.3]    #0 Sql->query called at [/var/www/html/model/persistence/SqlElement.php:3065]
+2026-03-16 14:33:00.862 ***** ERROR ***** [V11.2.3]    #1 SqlElement->getSqlElementsFromCriteria called at [/var/www/html/model/persistence/SqlElement.php:8969]
+2026-03-16 14:33:00.862 ***** ERROR ***** [V11.2.3]    #2 SqlElement->getExistingStatus called at [/var/www/html/view/objectList.php:1773]
+2026-03-16 14:33:00.862 ***** ERROR ***** [V11.2.3]    #3 include called at [/var/www/html/view/objectMain.php:121]
+2026-03-16 14:51:04.068 ===== TRACE ===== DISCONNECTED USER 'mazavasoa'
+2026-03-16 14:52:41.529 ***** ERROR ***** [V11.2.3] HACK ================================================================
+2026-03-16 14:52:41.529 ***** ERROR ***** [V11.2.3] Try to hack detected
+2026-03-16 14:52:41.529 ***** ERROR ***** [V11.2.3]  Source Code = Invalid class name 'Dhffgvba'
+2026-03-16 14:52:41.529 ***** ERROR ***** [V11.2.3]  QUERY_STRING = directAccess=true&objectClass=Dhffgvba&objectId=9
+2026-03-16 14:52:41.529 ***** ERROR ***** [V11.2.3]  REMOTE_ADDR = 72.145.76.1
+2026-03-16 14:52:41.529 ***** ERROR ***** [V11.2.3]  SCRIPT_FILENAME = /var/www/html/view/main.php
+2026-03-16 14:52:41.529 ***** ERROR ***** [V11.2.3]  CONNECTED USER = # - 
+2026-03-16 14:52:41.529 ***** ERROR ***** [V11.2.3]  === Trace Stack for last error ===
+2026-03-16 14:52:41.529 ***** ERROR ***** [V11.2.3]  => /var/www/html/tool/projeqtor.php at line 1696 calling debugPrintTraceStack()
+2026-03-16 14:52:41.529 ***** ERROR ***** [V11.2.3]  => /var/www/html/model/Security.php at line 65 calling traceHack()
+2026-03-16 14:52:41.529 ***** ERROR ***** [V11.2.3]  => /var/www/html/view/login.php at line 215 calling Security:checkValidClass()
+2026-03-16 14:52:41.529 ***** ERROR ***** [V11.2.3]  => /var/www/html/tool/projeqtor.php at line 352 calling include()
+2026-03-16 14:52:41.529 ***** ERROR ***** [V11.2.3]  => /var/www/html/view/main.php at line 38 calling require_once()
+2026-03-16 14:52:41.529 ***** ERROR ***** [V11.2.3]  ===
+2026-03-16 14:52:41.529 ***** ERROR ***** [V11.2.3]  REQUEST_URI = /view/main.php?directAccess=true&objectClass=Dhffgvba&objectId=9
+2026-03-16 14:54:49.067 ===== TRACE ===== DISCONNECTED USER 'mazavasoa'
+2026-03-16 15:30:04.336 ===== TRACE ===== NEW CONNECTED USER 'digitalisation@oecfm.mg' (using remember me feature)
+2026-03-16 20:30:48.156 ===== TRACE ===== NEW CONNECTED USER 'mazavasoa'

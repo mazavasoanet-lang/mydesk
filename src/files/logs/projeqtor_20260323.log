@@ -1,0 +1,25 @@
+2026-03-23 00:45:00.534 ===== TRACE ===== NEW CONNECTED USER 'mazavasoa'
+2026-03-23 09:14:19.182 ===== TRACE ===== NEW CONNECTED USER 'digitalisation@oecfm.mg' (using remember me feature)
+2026-03-23 10:11:52.605 ===== TRACE ===== DISCONNECTED USER 'digitalisation@oecfm.mg'
+2026-03-23 10:11:54.232 ===== TRACE ===== NEW CONNECTED USER 'digitalisation@oecfm.mg' (using remember me feature)
+2026-03-23 10:48:44.670 ===== TRACE ===== NEW CONNECTED USER 'mazavasoa'
+2026-03-23 11:53:48.666 ***** ERROR ***** [V11.2.3] EXCEPTION *****
+2026-03-23 11:53:48.668 ***** ERROR ***** [V11.2.3] on file '/var/www/html/external/html2pdf/vendor/tecnickcom/tcpdf/tcpdf.php' at line (2950)
+2026-03-23 11:53:48.668 ***** ERROR ***** [V11.2.3] cause = TCPDF ERROR: TCPDF requires the Imagick or GD extension to handle PNG images with alpha channel.
+2026-03-23 11:53:48.668 ***** ERROR ***** [V11.2.3]    => #0 /var/www/html/external/html2pdf/vendor/tecnickcom/tcpdf/tcpdf.php (7338) -> Error()
+2026-03-23 11:53:48.668 ***** ERROR ***** [V11.2.3]    => #1 /var/www/html/external/html2pdf/vendor/tecnickcom/tcpdf/tcpdf.php (7061) -> ImagePngAlpha()
+2026-03-23 11:53:48.668 ***** ERROR ***** [V11.2.3]    => #2 /var/www/html/external/html2pdf/src/Html2Pdf.php (1669) -> Image()
+2026-03-23 11:53:48.668 ***** ERROR ***** [V11.2.3]    => #3 /var/www/html/external/html2pdf/src/Html2Pdf.php (5786) -> _drawImage()
+2026-03-23 11:53:48.668 ***** ERROR ***** [V11.2.3]    => #4 /var/www/html/external/html2pdf/src/Html2Pdf.php (1456) -> _tag_open_IMG()
+2026-03-23 11:53:48.668 ***** ERROR ***** [V11.2.3]    => #5 /var/www/html/external/html2pdf/src/Html2Pdf.php (1424) -> _executeAction()
+2026-03-23 11:53:48.668 ***** ERROR ***** [V11.2.3]    => #6 /var/www/html/external/html2pdf/src/Html2Pdf.php (612) -> _makeHTMLcode()
+2026-03-23 11:53:48.668 ***** ERROR ***** [V11.2.3]    => #7 /var/www/html/view/print.php (419) -> writeHTML()
+2026-03-23 11:53:48.668 ***** ERROR ***** [V11.2.3]    => #8 /var/www/html/view/print.php (306) -> finalizePrint()
+2026-03-23 11:53:48.668 ***** ERROR ***** [V11.2.3]    => Error on print for parameters:
+2026-03-23 11:53:48.668 ***** ERROR ***** [V11.2.3]       -> page : objectDetail.php
+2026-03-23 11:53:48.668 ***** ERROR ***** [V11.2.3]       -> object class : Question
+2026-03-23 11:53:48.668 ***** ERROR ***** [V11.2.3]       -> object id : 000009
+2026-03-23 11:53:48.668 ***** ERROR ***** [V11.2.3]       -> report name : 
+2026-03-23 13:12:03.198 ===== TRACE ===== NEW CONNECTED USER 'digitalisation@oecfm.mg' (using remember me feature)
+2026-03-23 14:12:03.871 ===== TRACE ===== NEW CONNECTED USER 'digitalisation@oecfm.mg' (using remember me feature)
+2026-03-23 15:12:03.737 ===== TRACE ===== NEW CONNECTED USER 'digitalisation@oecfm.mg' (using remember me feature)

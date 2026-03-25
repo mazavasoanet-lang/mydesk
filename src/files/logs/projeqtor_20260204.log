@@ -1,0 +1,4 @@
+2026-02-04 12:33:04.717 ===== TRACE ===== NEW CONNECTED USER 'manager'
+2026-02-04 12:42:49.282 ===== TRACE ===== NEW CONNECTED USER 'fenosoa.theodoret@oecfm.mg'
+2026-02-04 12:57:05.833 ===== TRACE ===== DISCONNECTED USER 'manager'
+2026-02-04 12:58:06.950 ===== TRACE ===== NEW CONNECTED USER 'rssi@oecfm.mg'

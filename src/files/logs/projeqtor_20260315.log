@@ -1,0 +1,77 @@
+2026-03-15 10:06:02.924 ***** ERROR ***** [V11.2.3] ERROR *****
+2026-03-15 10:06:02.926 ***** ERROR ***** [V11.2.3] on file '/var/www/html/model/Attachment.php' at line (105)
+2026-03-15 10:06:02.926 ***** ERROR ***** [V11.2.3] cause = file_exists(): Passing null to parameter #1 ($filename) of type string is deprecated
+2026-03-15 10:06:03.021 ***** ERROR ***** [V11.2.3] ERROR *****
+2026-03-15 10:06:03.021 ***** ERROR ***** [V11.2.3] on file '/var/www/html/model/Attachment.php' at line (105)
+2026-03-15 10:06:03.021 ***** ERROR ***** [V11.2.3] cause = file_exists(): Passing null to parameter #1 ($filename) of type string is deprecated
+2026-03-15 13:34:46.160 ===== TRACE ===== DISCONNECTED USER 'mazavasoa'
+2026-03-15 13:34:59.393 ===== TRACE ===== NEW CONNECTED USER 'mazavasoa'
+2026-03-15 17:49:21.617 ***** ERROR ***** [V11.2.3] Exception-[42000] SQLSTATE[42000]: Syntax error or access violation: 1253 COLLATION 'utf32_general_ci' is not valid for CHARACTER SET 'utf8mb4'
+2026-03-15 17:49:21.619 ***** ERROR ***** [V11.2.3]    For query : SELECT planningelement.* , activity.idStatus as activitystatus, activity.idActivityType as activitytype, activity.fixPlanning as activityfixplanning, activity.workOnRealTime as activityworkonrealtime , project.idStatus as projectstatus, project.idProjectType as projecttype, project.isUnderConstruction as projectisunderconstruction, project.fixPlanning as projectfixplanning
+ FROM 
+  ( SELECT cast(id as CHAR) COLLATE utf32_general_ci as id,color,idProject,cast(refType AS CHAR) COLLATE utf32_general_ci as refType,refId,refName,topId,topRefType,topRefId,
+        priority,elementary,idle,done,cancelled,idPlanningMode,idBill,
+        initialStartDate,validatedStartDate,validatedStartFraction,plannedStartDate,plannedStartFraction,realStartDate,
+        initialEndDate,validatedEndDate,validatedEndFraction,plannedEndDate,plannedEndFraction,realEndDate,
+        latestStartDate,latestEndDate,
+        initialDuration,validatedDuration,plannedDuration,realDuration,
+        initialWork,validatedWork,assignedWork,plannedWork,leftWork,realWork,
+        validatedCost,assignedCost,plannedCost,leftCost,realCost,
+        progress,expectedProgress,wbs,wbsSortable,isOnCriticalPath,notPlannedWork, needReplan,
+        null as idType, null as idStatus, null as idResource, 0 as isGlobal , null as paused
+      FROM planningelement
+    WHERE  ((planningelement.idProject not in (0) or planningelement.idProject is null ) and (planningelement.idProject not in (0) or planningelement.idProject is null or (1=4) ) and (planningelement.idProject not in (0) or planningelement.idProject is null or (1=3) )) 
+  UNION 
+    SELECT coalesce(cast( (pex.id+1000000000) AS CHAR) COLLATE utf32_general_ci,concat('Ticket','_',ticket.id)) as id, null as color, ticket.idProject as idProject, cast('Ticket' AS CHAR) COLLATE utf32_general_ci as refType, ticket.id as refId, ticket.name as refName, null as topId, 'Project' as topRefType, ticket.idProject as topRefId, 
+      null as priority, 1 as elementary, ticket.idle as idle, ticket.done as done, ticket.cancelled as cancelled, 8 as idPlanningMode, null as idBill, 
+      null as initialStartDate, null as validatedStartDate, 0 as validatedStartFraction, ticket.actualDueDateTime as plannedStartDate, 0 as plannedStartFraction, ticket.handledDateTime as realStartDate, 
+      null as initialEndDate, ticket.initialDueDateTime as validatedEndDate, 1 as validatedEndFraction, ticket.actualDueDateTime as plannedEndDate, 1 as plannedEndFraction, ticket.doneDateTime as realEndDate, null as latestStartDate, null as latestEndDate, 
+      null as initialDuration, 1 as validatedDuration, null as plannedDuration, null as realDuration, 
+      null as initialWork, we.plannedWork as validatedWork, null as assignedWork, we.leftWork+we.realWork as plannedWork, we.leftWork as leftWork, we.realWork as realWork, 
+      null as validatedCost, null as assignedCost, null as plannedCost, null as leftCost, null as realCost, 
+      null as progress, null as expectedProgress, coalesce(pex.wbs,concat(pe.wbs,'._#',ticket.id)) as wbs, coalesce(pex.wbsSortable,concat(pe.wbsSortable,'._#',ticket.id)) as wbsSortable, null as isOnCriticalPath, null as notPlannedWork, null as needReplan, ticket.idTicketType as idType, ticket.idStatus as idStatus, ticket.idResource as idResource, 1 as isGlobal, null as paused
+    FROM ticket LEFT JOIN planningelement AS pe ON pe.refType='Project' and pe.refId=ticket.idProject LEFT JOIN planningelementextension as pex ON pex.refType='Ticket' and pex.refId=ticket.id 
+        LEFT JOIN workelement AS we ON we.refType='Ticket' AND we.refId=ticket.id  WHERE  ((ticket.idProject not in (0) or ticket.idProject is null ) and (ticket.idProject not in (0) or ticket.idProject is null or (ticket.idResource=1) ) and (ticket.idProject not in (0) or ticket.idProject is null or (ticket.idUser=1) )) and ticket.idProject not in (0)) as planningelement left join activity on planningelement.refType='Activity' and planningelement.refId=activity.id  left join project on planningelement.refType='Project' and planningelement.refId=project.id 
+ WHERE planningelement.idle=0  and (1=1) and ( (planningelement.idProject in (0, 17))) and planningelement.idProject not in (0)
+ ORDER BY planningelement.wbsSortable 
+ LIMIT 2001
+2026-03-15 17:49:21.619 ***** ERROR ***** [V11.2.3]    Strack trace :
+2026-03-15 17:49:21.619 ***** ERROR ***** [V11.2.3]    #0 Sql->query called at [/var/www/html/tool/jsonPlanning.php:343]
+2026-03-15 17:49:21.619 ***** ERROR ***** [V11.2.3]    #1 include called at [/var/www/html/view/globalPlanningList.php:328]
+2026-03-15 17:49:21.619 ***** ERROR ***** [V11.2.3]    #2 include called at [/var/www/html/view/globalPlanningMain.php:100]
+2026-03-15 17:49:32.702 ***** ERROR ***** [V11.2.3] Exception-[42000] SQLSTATE[42000]: Syntax error or access violation: 1253 COLLATION 'utf32_general_ci' is not valid for CHARACTER SET 'utf8mb4'
+2026-03-15 17:49:32.703 ***** ERROR ***** [V11.2.3]    For query : SELECT planningelement.* , activity.idStatus as activitystatus, activity.idActivityType as activitytype, activity.fixPlanning as activityfixplanning, activity.workOnRealTime as activityworkonrealtime , project.idStatus as projectstatus, project.idProjectType as projecttype, project.isUnderConstruction as projectisunderconstruction, project.fixPlanning as projectfixplanning
+ FROM 
+  ( SELECT cast(id as CHAR) COLLATE utf32_general_ci as id,color,idProject,cast(refType AS CHAR) COLLATE utf32_general_ci as refType,refId,refName,topId,topRefType,topRefId,
+        priority,elementary,idle,done,cancelled,idPlanningMode,idBill,
+        initialStartDate,validatedStartDate,validatedStartFraction,plannedStartDate,plannedStartFraction,realStartDate,
+        initialEndDate,validatedEndDate,validatedEndFraction,plannedEndDate,plannedEndFraction,realEndDate,
+        latestStartDate,latestEndDate,
+        initialDuration,validatedDuration,plannedDuration,realDuration,
+        initialWork,validatedWork,assignedWork,plannedWork,leftWork,realWork,
+        validatedCost,assignedCost,plannedCost,leftCost,realCost,
+        progress,expectedProgress,wbs,wbsSortable,isOnCriticalPath,notPlannedWork, needReplan,
+        null as idType, null as idStatus, null as idResource, 0 as isGlobal , null as paused
+      FROM planningelement
+    WHERE  ((planningelement.idProject not in (0) or planningelement.idProject is null ) and (planningelement.idProject not in (0) or planningelement.idProject is null or (1=4) ) and (planningelement.idProject not in (0) or planningelement.idProject is null or (1=3) )) 
+  UNION 
+    SELECT coalesce(cast( (pex.id+1000000000) AS CHAR) COLLATE utf32_general_ci,concat('Ticket','_',ticket.id)) as id, null as color, ticket.idProject as idProject, cast('Ticket' AS CHAR) COLLATE utf32_general_ci as refType, ticket.id as refId, ticket.name as refName, null as topId, 'Project' as topRefType, ticket.idProject as topRefId, 
+      null as priority, 1 as elementary, ticket.idle as idle, ticket.done as done, ticket.cancelled as cancelled, 8 as idPlanningMode, null as idBill, 
+      null as initialStartDate, null as validatedStartDate, 0 as validatedStartFraction, ticket.actualDueDateTime as plannedStartDate, 0 as plannedStartFraction, ticket.handledDateTime as realStartDate, 
+      null as initialEndDate, ticket.initialDueDateTime as validatedEndDate, 1 as validatedEndFraction, ticket.actualDueDateTime as plannedEndDate, 1 as plannedEndFraction, ticket.doneDateTime as realEndDate, null as latestStartDate, null as latestEndDate, 
+      null as initialDuration, 1 as validatedDuration, null as plannedDuration, null as realDuration, 
+      null as initialWork, we.plannedWork as validatedWork, null as assignedWork, we.leftWork+we.realWork as plannedWork, we.leftWork as leftWork, we.realWork as realWork, 
+      null as validatedCost, null as assignedCost, null as plannedCost, null as leftCost, null as realCost, 
+      null as progress, null as expectedProgress, coalesce(pex.wbs,concat(pe.wbs,'._#',ticket.id)) as wbs, coalesce(pex.wbsSortable,concat(pe.wbsSortable,'._#',ticket.id)) as wbsSortable, null as isOnCriticalPath, null as notPlannedWork, null as needReplan, ticket.idTicketType as idType, ticket.idStatus as idStatus, ticket.idResource as idResource, 1 as isGlobal, null as paused
+    FROM ticket LEFT JOIN planningelement AS pe ON pe.refType='Project' and pe.refId=ticket.idProject LEFT JOIN planningelementextension as pex ON pex.refType='Ticket' and pex.refId=ticket.id 
+        LEFT JOIN workelement AS we ON we.refType='Ticket' AND we.refId=ticket.id  WHERE  ((ticket.idProject not in (0) or ticket.idProject is null ) and (ticket.idProject not in (0) or ticket.idProject is null or (ticket.idResource=1) ) and (ticket.idProject not in (0) or ticket.idProject is null or (ticket.idUser=1) )) and ticket.idProject not in (0)) as planningelement left join activity on planningelement.refType='Activity' and planningelement.refId=activity.id  left join project on planningelement.refType='Project' and planningelement.refId=project.id 
+ WHERE planningelement.idle=0  and (1=1) and ( (planningelement.idProject in (0, 17))) and planningelement.idProject not in (0)
+ ORDER BY planningelement.wbsSortable 
+ LIMIT 2001
+2026-03-15 17:49:32.703 ***** ERROR ***** [V11.2.3]    Strack trace :
+2026-03-15 17:49:32.703 ***** ERROR ***** [V11.2.3]    #0 Sql->query called at [/var/www/html/tool/jsonPlanning.php:343]
+2026-03-15 17:49:32.703 ***** ERROR ***** [V11.2.3]    #1 include called at [/var/www/html/view/globalPlanningList.php:328]
+2026-03-15 17:49:32.703 ***** ERROR ***** [V11.2.3]    #2 include called at [/var/www/html/view/globalPlanningMain.php:100]
+2026-03-15 18:18:09.310 ===== TRACE ===== DISCONNECTED USER 'mazavasoa'
+2026-03-15 18:22:46.119 ===== TRACE ===== NEW CONNECTED USER 'mazavasoa'
+2026-03-15 18:45:19.034 ===== TRACE ===== DISCONNECTED USER 'mazavasoa'

@@ -1,0 +1,48 @@
+2026-03-25 00:37:16.231 ===== TRACE ===== NEW CONNECTED USER 'mazavasoa'
+2026-03-25 00:38:46.701 ***** ERROR ***** [V11.2.3] Error sending mail
+2026-03-25 00:38:46.701 ***** ERROR ***** [V11.2.3]    SMTP Server : srv.oecfm.mg
+2026-03-25 00:38:46.701 ***** ERROR ***** [V11.2.3]    SMTP Port : 587
+2026-03-25 00:38:46.701 ***** ERROR ***** [V11.2.3]    Mail stored in Database : #176
+2026-03-25 00:38:46.701 ***** ERROR ***** [V11.2.3]    PHPMail error : SMTP connect() failed. https://github.com/PHPMailer/PHPMailer/wiki/Troubleshooting
+2026-03-25 00:38:46.701 ***** ERROR ***** [V11.2.3]    PHPMail debug : 
+2026-03-25 00:41:13.280 ***** ERROR ***** [V11.2.3] Error sending mail
+2026-03-25 00:41:13.280 ***** ERROR ***** [V11.2.3]    SMTP Server : srv.oecfm.mg
+2026-03-25 00:41:13.280 ***** ERROR ***** [V11.2.3]    SMTP Port : 587
+2026-03-25 00:41:13.280 ***** ERROR ***** [V11.2.3]    Sendmail path : /usr/sbin/sendmail -t -i
+2026-03-25 00:41:13.280 ***** ERROR ***** [V11.2.3]    Mail stored in Database : #177
+2026-03-25 00:45:53.202 ***** ERROR ***** [V11.2.3] Error sending mail
+2026-03-25 00:45:53.202 ***** ERROR ***** [V11.2.3]    SMTP Server : srv.oecfm.mg
+2026-03-25 00:45:53.202 ***** ERROR ***** [V11.2.3]    SMTP Port : 587
+2026-03-25 00:45:53.202 ***** ERROR ***** [V11.2.3]    Sendmail path : /usr/sbin/sendmail -t -i
+2026-03-25 00:45:53.202 ***** ERROR ***** [V11.2.3]    Mail stored in Database : #178
+2026-03-25 00:53:03.423 ***** ERROR ***** [V11.2.3] Error sending mail
+2026-03-25 00:53:03.423 ***** ERROR ***** [V11.2.3]    SMTP Server : smtp.gmail.com
+2026-03-25 00:53:03.423 ***** ERROR ***** [V11.2.3]    SMTP Port : 587
+2026-03-25 00:53:03.423 ***** ERROR ***** [V11.2.3]    Mail stored in Database : #179
+2026-03-25 00:53:03.423 ***** ERROR ***** [V11.2.3]    PHPMail error : SMTP connect() failed. https://github.com/PHPMailer/PHPMailer/wiki/Troubleshooting
+2026-03-25 00:53:03.423 ***** ERROR ***** [V11.2.3]    PHPMail debug : 
+2026-03-25 00:53:27.701 ***** ERROR ***** [V11.2.3] Error sending mail
+2026-03-25 00:53:27.701 ***** ERROR ***** [V11.2.3]    SMTP Server : smtp.gmail.com
+2026-03-25 00:53:27.701 ***** ERROR ***** [V11.2.3]    SMTP Port : 587
+2026-03-25 00:53:27.701 ***** ERROR ***** [V11.2.3]    Sendmail path : /usr/sbin/sendmail -t -i
+2026-03-25 00:53:27.701 ***** ERROR ***** [V11.2.3]    Mail stored in Database : #180
+2026-03-25 00:55:16.730 ***** ERROR ***** [V11.2.3] ERROR *****
+2026-03-25 00:55:16.730 ***** ERROR ***** [V11.2.3] on file '/var/www/html/tool/projeqtor.php' at line (2744)
+2026-03-25 00:55:16.730 ***** ERROR ***** [V11.2.3] cause = fsockopen(): php_network_getaddresses: getaddrinfo for smtp.gmail.com failed: Temporary failure in name resolution
+2026-03-25 00:55:16.730 ***** ERROR ***** [V11.2.3] ERROR *****
+2026-03-25 00:55:16.730 ***** ERROR ***** [V11.2.3] on file '/var/www/html/tool/projeqtor.php' at line (2744)
+2026-03-25 00:55:16.730 ***** ERROR ***** [V11.2.3] cause = fsockopen(): Unable to connect to ssl://smtp.gmail.com:587 (php_network_getaddresses: getaddrinfo for smtp.gmail.com failed: Temporary failure in name resolution)
+2026-03-25 00:55:16.730 ***** ERROR ***** [V11.2.3] Error sending mail
+2026-03-25 00:55:16.730 ***** ERROR ***** [V11.2.3]    SMTP Server : ssl://smtp.gmail.com
+2026-03-25 00:55:16.730 ***** ERROR ***** [V11.2.3]    SMTP Port : 587
+2026-03-25 00:55:16.730 ***** ERROR ***** [V11.2.3]    SMTP User : digitalisation.oecfm@gmail.com
+2026-03-25 00:55:16.730 ***** ERROR ***** [V11.2.3]    Mail stored in Database : #181
+2026-03-25 00:56:12.016 ***** ERROR ***** [V11.2.3] Error sending mail
+2026-03-25 00:56:12.016 ***** ERROR ***** [V11.2.3]    SMTP Server : smtp.gmail.com
+2026-03-25 00:56:12.016 ***** ERROR ***** [V11.2.3]    SMTP Port : 587
+2026-03-25 00:56:12.016 ***** ERROR ***** [V11.2.3]    Sendmail path : /usr/sbin/sendmail -t -i
+2026-03-25 00:56:12.016 ***** ERROR ***** [V11.2.3]    Mail stored in Database : #182
+2026-03-25 01:50:31.805 ===== TRACE ===== DISCONNECTED USER 'mazavasoa'
+2026-03-25 01:52:59.366 ===== TRACE ===== NEW CONNECTED USER 'mazavasoa'
+2026-03-25 07:59:01.589 ===== TRACE ===== DISCONNECTED USER 'mazavasoa'
+2026-03-25 07:59:59.295 ===== TRACE ===== NEW CONNECTED USER 'mazavasoa'

@@ -1,0 +1,54 @@
+2026-03-13 06:03:37.985 ***** ERROR ***** [V11.2.3] ERROR *****
+2026-03-13 06:03:37.988 ***** ERROR ***** [V11.2.3] on file '/var/www/html/model/Attachment.php' at line (105)
+2026-03-13 06:03:37.988 ***** ERROR ***** [V11.2.3] cause = file_exists(): Passing null to parameter #1 ($filename) of type string is deprecated
+2026-03-13 06:03:38.146 ***** ERROR ***** [V11.2.3] ERROR *****
+2026-03-13 06:03:38.146 ***** ERROR ***** [V11.2.3] on file '/var/www/html/model/Attachment.php' at line (105)
+2026-03-13 06:03:38.146 ***** ERROR ***** [V11.2.3] cause = file_exists(): Passing null to parameter #1 ($filename) of type string is deprecated
+2026-03-13 06:03:38.298 ***** ERROR ***** [V11.2.3] ERROR *****
+2026-03-13 06:03:38.298 ***** ERROR ***** [V11.2.3] on file '/var/www/html/model/Attachment.php' at line (105)
+2026-03-13 06:03:38.298 ***** ERROR ***** [V11.2.3] cause = file_exists(): Passing null to parameter #1 ($filename) of type string is deprecated
+2026-03-13 06:12:16.714 ***** ERROR ***** [V11.2.3] ERROR *****
+2026-03-13 06:12:16.714 ***** ERROR ***** [V11.2.3] on file '/var/www/html/model/Attachment.php' at line (105)
+2026-03-13 06:12:16.714 ***** ERROR ***** [V11.2.3] cause = file_exists(): Passing null to parameter #1 ($filename) of type string is deprecated
+2026-03-13 06:12:16.792 ***** ERROR ***** [V11.2.3] ERROR *****
+2026-03-13 06:12:16.792 ***** ERROR ***** [V11.2.3] on file '/var/www/html/model/Attachment.php' at line (105)
+2026-03-13 06:12:16.792 ***** ERROR ***** [V11.2.3] cause = file_exists(): Passing null to parameter #1 ($filename) of type string is deprecated
+2026-03-13 06:12:16.890 ***** ERROR ***** [V11.2.3] ERROR *****
+2026-03-13 06:12:16.891 ***** ERROR ***** [V11.2.3] on file '/var/www/html/model/Attachment.php' at line (105)
+2026-03-13 06:12:16.891 ***** ERROR ***** [V11.2.3] cause = file_exists(): Passing null to parameter #1 ($filename) of type string is deprecated
+2026-03-13 06:22:07.872 ===== TRACE ===== DISCONNECTED USER 'mazavasoa'
+2026-03-13 06:27:50.319 ===== TRACE ===== NEW CONNECTED USER 'mazavasoa'
+2026-03-13 06:47:48.604 ***** ERROR ***** [V11.2.3] ERROR *****
+2026-03-13 06:47:48.604 ***** ERROR ***** [V11.2.3] on file '/var/www/html/model/Attachment.php' at line (105)
+2026-03-13 06:47:48.604 ***** ERROR ***** [V11.2.3] cause = file_exists(): Passing null to parameter #1 ($filename) of type string is deprecated
+2026-03-13 06:47:48.685 ***** ERROR ***** [V11.2.3] ERROR *****
+2026-03-13 06:47:48.685 ***** ERROR ***** [V11.2.3] on file '/var/www/html/model/Attachment.php' at line (105)
+2026-03-13 06:47:48.685 ***** ERROR ***** [V11.2.3] cause = file_exists(): Passing null to parameter #1 ($filename) of type string is deprecated
+2026-03-13 06:47:48.765 ***** ERROR ***** [V11.2.3] ERROR *****
+2026-03-13 06:47:48.765 ***** ERROR ***** [V11.2.3] on file '/var/www/html/model/Attachment.php' at line (105)
+2026-03-13 06:47:48.765 ***** ERROR ***** [V11.2.3] cause = file_exists(): Passing null to parameter #1 ($filename) of type string is deprecated
+2026-03-13 10:17:38.694 ===== TRACE ===== NEW CONNECTED USER 'digitalisation@oecfm.mg'
+2026-03-13 10:26:22.426 ===== TRACE ===== NEW CONNECTED USER 'mazavasoa'
+2026-03-13 10:29:48.134 ***** ERROR ***** [V11.2.3] ERROR *****
+2026-03-13 10:29:48.134 ***** ERROR ***** [V11.2.3] on file '/var/www/html/model/Attachment.php' at line (105)
+2026-03-13 10:29:48.134 ***** ERROR ***** [V11.2.3] cause = file_exists(): Passing null to parameter #1 ($filename) of type string is deprecated
+2026-03-13 10:29:48.245 ***** ERROR ***** [V11.2.3] ERROR *****
+2026-03-13 10:29:48.245 ***** ERROR ***** [V11.2.3] on file '/var/www/html/model/Attachment.php' at line (105)
+2026-03-13 10:29:48.245 ***** ERROR ***** [V11.2.3] cause = file_exists(): Passing null to parameter #1 ($filename) of type string is deprecated
+2026-03-13 10:29:48.308 ***** ERROR ***** [V11.2.3] ERROR *****
+2026-03-13 10:29:48.308 ***** ERROR ***** [V11.2.3] on file '/var/www/html/model/Attachment.php' at line (105)
+2026-03-13 10:29:48.308 ***** ERROR ***** [V11.2.3] cause = file_exists(): Passing null to parameter #1 ($filename) of type string is deprecated
+2026-03-13 14:00:47.198 ===== TRACE ===== DISCONNECTED USER 'digitalisation@oecfm.mg'
+2026-03-13 14:00:55.150 ===== TRACE ===== NEW CONNECTED USER 'digitalisation@oecfm.mg'
+2026-03-13 14:01:46.562 ===== TRACE ===== NEW CONNECTED USER 'mhftiana@ymail.com'
+2026-03-13 16:59:17.496 ===== TRACE ===== NEW CONNECTED USER 'mazavasoa'
+2026-03-13 17:00:22.329 ===== TRACE ===== DISCONNECTED USER 'mazavasoa'
+2026-03-13 17:00:29.896 ===== TRACE ===== NEW CONNECTED USER 'mazavasoa'
+2026-03-13 17:04:30.883 ***** ERROR ***** [V11.2.3] ERROR *****
+2026-03-13 17:04:30.883 ***** ERROR ***** [V11.2.3] on file '/var/www/html/model/Attachment.php' at line (105)
+2026-03-13 17:04:30.883 ***** ERROR ***** [V11.2.3] cause = file_exists(): Passing null to parameter #1 ($filename) of type string is deprecated
+2026-03-13 17:14:34.773 ===== TRACE ===== DISCONNECTED USER 'mazavasoa'
+2026-03-13 17:14:46.065 ===== TRACE ===== NEW CONNECTED USER 'mazavasoa'
+2026-03-13 19:08:20.912 ===== TRACE ===== NEW CONNECTED USER 'digitalisation@oecfm.mg' (using remember me feature)
+2026-03-13 20:01:33.431 ===== TRACE ===== DISCONNECTED USER 'digitalisation@oecfm.mg'
+2026-03-13 20:06:25.372 ===== TRACE ===== NEW CONNECTED USER 'digitalisation@oecfm.mg' (using remember me feature)

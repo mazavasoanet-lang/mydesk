@@ -1,0 +1,7 @@
+2026-03-04 16:59:32.475 ===== TRACE ===== Login error for user 'digitalisation@oecfm.mg'
+2026-03-04 16:59:38.893 ===== TRACE ===== Login error for user 'digitalisation@oecfm.mg'
+2026-03-04 16:59:44.656 ===== TRACE ===== user 'digitalisation@oecfm.mg' locked - too many tries
+2026-03-04 16:59:44.680 ===== TRACE ===== Login locked for user 'digitalisation@oecfm.mg'
+2026-03-04 17:00:35.168 ===== TRACE ===== Login locked for user 'digitalisation@oecfm.mg'
+2026-03-04 17:00:42.748 ===== TRACE ===== Login locked for user 'digitalisation@oecfm.mg'
+2026-03-04 18:01:31.005 ===== TRACE ===== Login locked for user 'digitalisation@oecfm.mg'
